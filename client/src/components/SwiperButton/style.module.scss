@@ -1,0 +1,27 @@
+/* style.module.scss */
+
+.navButtons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.prevButton,
+.nextButton {
+    //   background-color: #333;
+    //   color: #fff;
+    //   border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    img{
+      height: 30px;
+      width: 30px;
+  }
+}

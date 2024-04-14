@@ -1,0 +1,28 @@
+.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh; /* Take the whole height of the screen */
+    width: 25%; /* Width is around 25% of the screen */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .popupContent {
+    padding: 20px;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  

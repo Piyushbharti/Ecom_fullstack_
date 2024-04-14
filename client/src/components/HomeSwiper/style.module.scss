@@ -1,0 +1,45 @@
+.images{
+    width: 100%;
+    height: 35vh;
+    @media (max-width: 768px) {
+        height: 40vh;
+    }
+}
+/* style.module.scss */
+
+/* Example CSS styles for Swiper.js navigation buttons */
+
+/* Style for the next button */
+.swiper-button-next {
+    background-color: #333;
+    color: #b12121;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the previous button */
+  .swiper-button-prev {
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: #555;
+  }
+  
