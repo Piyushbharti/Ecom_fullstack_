@@ -20,6 +20,7 @@ const CartItem = () => {
     };
     fetchData();
   }, []);
+  
   return (
     <div className={style.cartContainer}>
       <div className={style.cartItems}>

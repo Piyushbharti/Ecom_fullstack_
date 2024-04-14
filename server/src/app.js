@@ -14,6 +14,7 @@ const port = process.env.PORT || 8000
 // const static_path = path.join(__dirname, '../public')
 // console.log(path.join(__dirname, '../public')
 
+
 app.use(cors());
 
 app.post("/singin", async(req, res)=>{
